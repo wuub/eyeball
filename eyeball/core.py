@@ -39,6 +39,14 @@ class CodeBlock(object):
         return isinstance(self.node, ast.ClassDef)
 
     @property
+    def start(self):
+        return self._start
+
+    @property
+    def end(self):
+        return self._end
+
+    @property
     def full_path(self):
         if not self._full_path:
             cur = self

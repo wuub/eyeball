@@ -15,6 +15,7 @@ class Test(object):
 
 from eyeball import code_blocks
 
+
 def test_class():
     blocks = code_blocks(CODE, line=2)
     assert len(blocks) == 1

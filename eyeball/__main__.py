@@ -26,7 +26,7 @@ def main():
 
     code = sys.stdin.read()
     blocks = code_blocks(code, line=args.line)
-    json.dump(blocks, sys.stdout, indent=2, default=json_default)
+    json.dump(blocks, sys.stdout, indent=2, default=json_default, sort_keys=True)
     sys.stdout.write('\n')
 
 if __name__ == '__main__':

@@ -24,7 +24,7 @@ setup(
     name='eyeball',
     version='0.0.2',
     description='Python source inspection with AST',
-    long_description=open('README.txt').read(),
+    long_description=open('README.rst').read(),
     author='Wojciech Bederski',
     url="https://github.com/wuub/eyeball",
     license='MIT',

@@ -23,12 +23,24 @@ class Tox(TestCommand):
 setup(
     name='eyeball',
     version='0.0.1',
-    description='Simple Python source inspection with AST',
+    description='Python source inspection with AST',
+    long_description=open('README.txt').read(),
     author='Wojciech Bederski',
+    url="https://github.com/wuub/eyeball",
     license='MIT',
     author_email='github@wuub.net',
     packages=find_packages(),
     tests_require=['tox'],
     zip_safe=False,
-    cmdclass={'test': Tox}
+    cmdclass={'test': Tox},
+    classifiers=[
+        "Development Status :: 2 - Pre-Alpha",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+        "Topic :: Software Development :: Libraries",
+        "Programming Language :: Python :: 2.7",
+        "Programming Language :: Python :: 3.3",
+        "Programming Language :: Python :: Implementation :: PyPy"
+    ]
 )

@@ -97,4 +97,4 @@ def code_blocks(code, line=None):
     code_map = CodeMap()
     cv = ClassVisitor(code_map)
     cv.visit(module)
-    return sorted(list(code_map.for_line(line)))
+    return sorted(list(code_map.for_line(line)), key=lambda block: block.span)

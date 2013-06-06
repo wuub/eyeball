@@ -1,5 +1,5 @@
-eyball
-======
+eyeball
+=======
 
 .. image:: https://travis-ci.org/wuub/eyeball.png
    :target: https://travis-ci.org/wuub/eyeball

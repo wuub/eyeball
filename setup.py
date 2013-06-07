@@ -22,7 +22,7 @@ class Tox(TestCommand):
 
 setup(
     name='eyeball',
-    version='0.0.3',
+    version='0.0.4',
     description='Python source inspection with AST',
     long_description=open('README.rst').read(),
     author='Wojciech Bederski',
